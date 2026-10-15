@@ -1,0 +1,12 @@
+spring:
+    data:
+        mongodb:
+          uri: mongodb+srv://saks123ham_db_user:zjVlMFlfGm0ClR4r@cluster0.tpf0vuz.mongodb.net/?appName=Cluster0
+          database: journaldb
+          auto-index-creation: true
+
+# context-path: /journal that mean, all API call be 8080/journal/...
+server:
+    port: 8080
+    servlet:
+        context-path: /journal

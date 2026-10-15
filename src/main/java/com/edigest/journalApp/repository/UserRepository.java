@@ -9,4 +9,9 @@ public interface UserRepository extends MongoRepository<User, ObjectId> {
 
     // that functionality is not available
     User findByUsername(String username);
+    void deleteByUsername(String name);
+
+
+
+
 }
